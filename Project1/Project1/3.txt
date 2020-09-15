@@ -1,0 +1,19 @@
+int main()
+{
+if(!false)
+{
+std::cout « "If 1" « std::endl;
+int y;
+int x=9;
+x = 5+8;
+std::cout « x « std::endl;
+x = 5 - 8;
+std::cout « x « std::endl;
+x = 5 * 8;
+std::cout « x « std::endl;
+int a0 = 0;
+int a1 = 1;
+int a2 = 2;
+int a3 = 3;
+std::cout « "a0 =" « a0 « "; a1 =" « a1 « "; a2 =" « a2 « "; a3 =" « a3 « std::endl;
+std::cout « x « std::endl;
