@@ -1,0 +1,17 @@
+mov 1fff,r0
+out r0,p0
+mov 30,r1
+out r1,p1
+mov 78,r2
+out r2,p2
+mov fe,r3
+out r3,p3
+mov 83ff,r0
+out r0,p4
+mov ffff,r1
+out r1,p5
+mov 8048,r2
+out r2,p6
+mov 1fe,r3
+out r3,p7
+stop        
