@@ -13,5 +13,22 @@ out r1,p5
 mov 8048,r2
 out r2,p6
 mov 1fe,r3
-out r3,p7
-stop        
+out r3,p7       
+mov 1,r1
+m:
+system c
+system c
+system c
+system d
+system d
+system d
+system 3
+system 3
+system 3
+system 4
+system 4
+system 4
+system 6
+jnz m
+
+stop 
